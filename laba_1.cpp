@@ -13,6 +13,11 @@ int main(){
         cout<<"\n Happy New Year"<<endl ;   
     for (int i = 0 ; i < 10 ; i++)
         cout<<B[i];    
+    int maxim;
+     for (int i = 0 ;i<n; i++){
+         maxim=max(maxim,A[i]);
+     }
+     cout<<maxim;
     system("pause");      
    return 0;
 }
